@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Heading -->
+    <dimen name="heading_text_size">41sp</dimen>
+    <dimen name="heading_padding_horiz">42dp</dimen>
+    <dimen name="heading_margin_top">80dp</dimen>
+
+    <!-- Subheading -->
+    <dimen name="subheading_text_size">21sp</dimen>
+    <dimen name="subheading_line_spacing">6dp</dimen>
+    <dimen name="subheading_margin_top">16dp</dimen>
+    <dimen name="subheading_padding_end">24dp</dimen>
+
+    <!-- Button Base style dimensions -->
+    <dimen name="button_text_size">15sp</dimen>
+
+    <!-- Action button -->
+    <dimen name="action_btn_width">256dp</dimen>
+    <dimen name="action_btn_height">56dp</dimen>
+    <dimen name="action_btn_padding_horiz">34dp</dimen>
+
+    <!-- Action button with arrow -->
+    <dimen name="action_btn_w_arrow_padding_end">28dp</dimen>
+    <dimen name="action_btn_arrow_size">21dp</dimen>
+
+
+    <!-- Onboarding activity -->
+
+    <dimen name="onboard_action_btn_margin_bottom">22dp</dimen>
+    <dimen name="onboard_secondary_btn_margin_bottom">48dp</dimen>
+
+</resources>
