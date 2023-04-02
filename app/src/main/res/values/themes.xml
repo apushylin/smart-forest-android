@@ -13,4 +13,80 @@
         <item name="android:windowSplashScreenBackground">@color/green_dark</item>
     </style>
 
+    <!-- Hidden Action Bar -->
+    <style name="Theme.SmartForestNoActionBar" parent="Theme.SmartForestTemplate">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- Text Styles -->
+
+    <!-- Heading -->
+    <style name="Heading">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:paddingStart">@dimen/heading_padding_horiz</item>
+        <item name="android:paddingEnd">@dimen/heading_padding_horiz</item>
+        <item name="android:layout_marginTop">@dimen/heading_margin_top</item>
+    </style>
+
+    <!-- Subheading -->
+    <style name="Subheading">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/subheading_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/subheading_line_spacing</item>
+        <item name="android:layout_marginTop">@dimen/subheading_margin_top</item>
+        <item name="android:paddingStart">@dimen/subheading_padding_start</item>
+        <item name="android:paddingEnd">@dimen/subheading_padding_end</item>
+    </style>
+
+    <!-- Heading Dark -->
+    <style name="Heading.Dark">
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+    <!-- Subheading Dark -->
+    <style name="Subheading.Dark">
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+
+    <!-- Button styles -->
+
+    <!-- Button base style -->
+    <style name="Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <!-- Action Button -->
+    <style name="Button.Action">
+        <item name="android:layout_width">@dimen/action_btn_width</item>
+        <item name="android:layout_height">@dimen/action_btn_height</item>
+        <item name="android:background">@drawable/button_action_round_corners</item>
+        <item name="android:textColor">@color/green_dark</item>
+        <item name="android:paddingStart">@dimen/action_btn_padding_horiz</item>
+        <item name="android:paddingEnd">@dimen/action_btn_padding_horiz</item>
+    </style>
+
+    <!-- Action Button with arrow -->
+    <style name="Button.Action.WithArrow">
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:drawableEnd">@drawable/baseline_arrow_forward_24</item>
+        <item name="android:paddingEnd">@dimen/action_btn_w_arrow_padding_end</item>
+    </style>
+    
+    <!-- Button Borderless -->
+    <style name="Button.Borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <!-- Button Borderless light -->
+    <style name="Button.Borderless.Light">
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+
 </resources>

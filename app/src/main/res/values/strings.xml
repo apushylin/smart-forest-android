@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SmartForest Template</string>
+
+    <!-- Onboarding activity -->
+    <string name="onboarding_title">SmartForest</string>
+    <string name="onboarding_subtitle">Aims to evoke a sense of eco-friendliness and innovation</string>
+    <string name="onboarding_action_button">Start For Free</string>
+    <string name="not_now">Not now</string>
+
 </resources>
